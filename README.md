@@ -18,8 +18,7 @@
 
 ## Задание 1.0: Реализация стандартных предикатов
 
-* `mylength([], 0).
-* `mylength([_|Tail], Length) :- mylength(Tail, LastLength), Length is LastLength + 1.
+* `length1(X, Y)` - определение длины (Y) списка X.
 
 Примеры использования:
 ```
